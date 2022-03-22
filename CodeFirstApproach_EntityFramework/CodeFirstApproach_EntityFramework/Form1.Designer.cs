@@ -146,6 +146,7 @@
             this.btnUpdate.TabIndex = 5;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
@@ -156,6 +157,7 @@
             this.btnDelete.TabIndex = 6;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // dataGridViewEmployeeList
             // 
@@ -169,6 +171,7 @@
             this.dataGridViewEmployeeList.RowTemplate.Height = 24;
             this.dataGridViewEmployeeList.Size = new System.Drawing.Size(800, 343);
             this.dataGridViewEmployeeList.TabIndex = 7;
+            this.dataGridViewEmployeeList.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.dataGridViewEmployeeList_MouseDoubleClick);
             // 
             // Form1
             // 
